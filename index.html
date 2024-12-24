@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈烁砾的个人AI知识库</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span>陈烁砾的个人AI知识库</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="knowledge-base.html">知识库</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">关于我</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 欢迎区域 -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4">欢迎来到陈烁砾的个人AI知识库</h1>
+            <p class="lead">分享我在人工智能领域的学习心得、技术积累和实践经验</p>
+            <a href="knowledge-base.html" class="btn btn-primary btn-lg">开始探索</a>
+        </div>
+    </header>
+
+    <!-- 知识库概览 -->
+    <section class="knowledge-overview py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">知识库分类</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                <i class="bi bi-cpu"></i> AI的定义与分类
+                            </h3>
+                            <p class="card-text">AI的定义多种多样，但通常包括以下几种：</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">弱人工智能（Weak AI） ：在特定领域表现出色，如语音识别、图像识别等</a></li>
+                                <li><a href="#">强人工智能（Strong AI） ：能够以人类水平甚至超越人类的智能进行思考、学习和解决问题，目前尚未实现</a></li>
+                                <li><a href="#">通用人工智能（AGI） ：具备全面的认知能力，能在多种任务中超越人类智能</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                <i class="bi bi-diagram-3"></i> AI的应用领域
+                            </h3>
+                            <p class="card-text">AI已经广泛应用于多个领域，包括但不限于：</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">医疗：用于图像识别、病理诊断和辅助手术</a></li>
+                                <li><a href="#">金融：用于风险管理、投资决策和欺诈检测</a></li>
+                                <li><a href="#">教育：用于个性化教育和智能辅导</a></li>
+                                <li><a href="#">交通：用于自动驾驶和交通流量管理</a></li>
+                                <li><a href="#">零售：用于商品推荐和价格优化</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                <i class="bi bi-chat-dots"></i> 自然语言处理
+                            </h3>
+                            <p class="card-text">文本处理、语言模型和对话系统开发。</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#">NLP基础概念</a></li>
+                                <li><a href="#">Transformer架构</a></li>
+                                <li><a href="#">LLM开发实践</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特色文章 -->
+    <section class="featured-articles bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">特色文章</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img src="imgs/图片.png" class="card-img-top" alt="大语言模型发展现状与未来展望">
+                        <div class="card-body">
+                            <h3 class="card-title">大语言模型发展现状与未来展望</h3>
+                            <p class="card-text">
+                                大语言模型的发展经历了从统计语言模型、神经语言模型到预训练语言模型，再到当前的大型语言模型的演进过程。
+                                早期的统计语言模型依赖于规则和马尔可夫假设，但存在数据稀疏问题。随后，神经网络模型如RNN和Transformer架构的引入，
+                                使得模型能够更好地捕捉语义关系，并通过大规模无标注数据训练，实现了"预训练+微调"的范式。
+                                <a href="article.html" class="text-decoration-none">了解更多...</a>
+                            </p>
+                            <a href="article.html" class="btn btn-primary">阅读全文</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img src="imgs/AI.png" class="card-img-top" alt="AI辅助编程最佳实践指南">
+                        <div class="card-body">
+                            <h3 class="card-title">AI辅助编程最佳实践指南</h3>
+                            <p class="card-text">
+                                市面上有多种AI辅助编程工具，如GitHub Copilot、CodeGeeX、Cursor、CodeWhisperer等，它们支持多种编程语言和开发环境。
+                                选择工具时需考虑适用场景、功能需求和兼容性。AI生成的代码可以作为起点，但需要仔细审查、优化并结合自身经验进行调整。
+                                通过明确的提示词、良好的开发流程和持续学习，可以更好地发挥AI辅助编程的优势。
+                                <a href="article2.html" class="text-decoration-none">了解更多...</a>
+                            </p>
+                            <a href="article2.html" class="btn btn-primary">阅读全文</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>关于我</h5>
+                    <p>陈烁砾的个人AI知识库，致力于分享AI领域的学习心得和实践经验。</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>快速链接</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">隐私政策</a></li>
+                        <li><a href="#" class="text-light">使用条款</a></li>
+                        <li><a href="#" class="text-light">常见问题</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <small>&copy; 2024 陈烁砾的个人AI知识库. 保留所有权利.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 在 body 结束标签前添加 Bootstrap Icons 和 Bootstrap JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

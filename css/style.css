@@ -1,0 +1,152 @@
+/* 通用样式 */
+body {
+    padding-top: 56px;
+}
+
+/* 欢迎区域样式 */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imgs/R-C.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 40px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+} 
+
+/* 知识库概览 */
+.knowledge-overview .card {
+    transition: transform 0.3s ease;
+}
+
+.knowledge-overview .card:hover {
+    transform: translateY(-5px);
+}
+
+.knowledge-overview .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.knowledge-overview .bi {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: #0d6efd;
+}
+
+/* 特色文章 */
+.featured-articles .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 最新更新 */
+.latest-updates .card {
+    transition: box-shadow 0.3s ease;
+}
+
+.latest-updates .card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 页脚 */
+footer .social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #0d6efd !important;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* 知识库页面样式 */
+.kb-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.search-box .form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+.category-filters .btn {
+    border-radius: 20px;
+}
+
+.articles-list .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.articles-list .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.articles-list .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.pagination .page-link {
+    color: #0d6efd;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* 关于我页面样式 */
+.about-section {
+    padding-top: 2rem;
+}
+
+.profile-image img {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.skills-section .card {
+    transition: transform 0.3s ease;
+}
+
+.skills-section .card:hover {
+    transform: translateY(-5px);
+}
+
+.skills-section .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.skills-section .bi {
+    margin-right: 0.5rem;
+}
+
+.timeline .card {
+    border-left: 4px solid #0d6efd;
+}
+
+.social-links .btn {
+    transition: all 0.3s ease;
+}
+
+.social-links .btn:hover {
+    transform: translateY(-2px);
+}
